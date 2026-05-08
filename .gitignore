@@ -1,0 +1,25 @@
+# Dependências e cache
+node_modules/
+.cache/
+
+# Vercel
+.vercel
+.vercel.json.local
+
+# Variáveis de ambiente (NUNCA versionar)
+.env
+.env.local
+.env.*.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code (local apenas)
+.claude/
